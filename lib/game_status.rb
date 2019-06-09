@@ -5,6 +5,6 @@ end
 
 # Define your WIN_COMBINATIONS constant
 def WIN_COMBINATIONS
-  WIN_COMBINATIONS =[
+  WIN_COMBINATIONS =[[0,1,2],
     
     ]
