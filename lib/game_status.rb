@@ -9,7 +9,16 @@ end
  
  def won?(board)
    for WIN_COMBINATIONS.each do |win|
+     if 
      
    
   end
+  
+  
+  WIN_COMBINATIONS.each do |winner_set|
+    if array[winner_set[0]] == array[winner_set[1]] &&
+       array[winner_set[1]] == array[winner_set[2]] &&
+       position_taken?(array, winner_set[0])
+       puts "somebody won!"
+       return true 
 
