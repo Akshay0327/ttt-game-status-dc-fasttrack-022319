@@ -27,7 +27,13 @@ end
   end
   end
   
-  def full?
+  def full?(board)
+  if board.each {|i| i == " " || i == nil}
+    return false
+  else
+    return true
+  end
+end
     
   
   
